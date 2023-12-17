@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing Grid Component > Snapshot 1`] = `
+<div>
+  <div
+    class="_grid_296888"
+  >
+    Grid
+  </div>
+</div>
+`;
