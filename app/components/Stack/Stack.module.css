@@ -1,0 +1,19 @@
+.stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.stack > * {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.stack-non-recursive > * + * {
+    margin-top: 1.5rem;
+}
+
+.stack-recursive * + * {
+    margin-top: 1.5rem;
+}
+

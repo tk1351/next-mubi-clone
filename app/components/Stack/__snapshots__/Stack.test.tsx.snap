@@ -1,0 +1,21 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing Stack Component > Snapshot > isRecursive が false の場合 1`] = `
+<div>
+  <div
+    class="_stack_7c767f _stack-non-recursive_7c767f"
+  >
+    Stack
+  </div>
+</div>
+`;
+
+exports[`Testing Stack Component > Snapshot > isRecursive が true の場合 1`] = `
+<div>
+  <div
+    class="_stack_7c767f _stack-recursive_7c767f"
+  >
+    Stack
+  </div>
+</div>
+`;
