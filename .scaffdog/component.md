@@ -24,7 +24,7 @@ export const {{ inputs.name | pascal }}: FC<Props> = ({ children }) => {
 };
 ```
 
-# `{{ inputs.name | pascal }}/{{ inputs.name | pascal }}.modules.css`
+# `{{ inputs.name | pascal }}/{{ inputs.name | pascal }}.module.css`
 
 ```css
 
