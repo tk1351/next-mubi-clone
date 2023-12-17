@@ -59,7 +59,7 @@ import { {{ inputs.name | pascal }} } from './{{ inputs.name | pascal }}';
 
 describe(`Testing {{ inputs.name | pascal }} Component`, () => {
     it("Render", () => {
-        render(<Stack>{"{{ inputs.name | pascal }}"}</Stack>);
+        render(<{{ inputs.name | pascal }}>{"{{ inputs.name | pascal }}"}</{{ inputs.name | pascal }}>);
         expect(screen.getByText("{{ inputs.name | pascal }}")).toBeInTheDocument();
     });
 });
