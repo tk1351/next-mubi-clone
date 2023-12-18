@@ -1,0 +1,9 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing Frame Component > Snapshot 1`] = `
+<div>
+  <div
+    class="_frame_207b3f"
+  />
+</div>
+`;
