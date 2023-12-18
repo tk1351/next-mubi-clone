@@ -4,17 +4,27 @@ import { Cluster } from "./Cluster";
 
 describe(`Testing Cluster Component`, () => {
   describe("Snapshot", () => {
-    it("position が left の場合", () => {
-      const { container } = render(<Cluster position="left">Cluster</Cluster>);
-      expect(container).toMatchSnapshot();
-    });
-    it("position が right の場合", () => {
-      const { container } = render(<Cluster position="right">Cluster</Cluster>);
-      expect(container).toMatchSnapshot();
-    });
-    it("position が center の場合", () => {
+    it("justify, aline が 'flex-start' の場合", () => {
       const { container } = render(
-        <Cluster position="center">Cluster</Cluster>,
+        <Cluster justify="flex-start" aline="flex-start">
+          Cluster
+        </Cluster>,
+      );
+      expect(container).toMatchSnapshot();
+    });
+    it("justify, aline が 'flex-end' の場合", () => {
+      const { container } = render(
+        <Cluster justify="flex-end" aline="flex-end">
+          Cluster
+        </Cluster>,
+      );
+      expect(container).toMatchSnapshot();
+    });
+    it("justify, aline が center の場合", () => {
+      const { container } = render(
+        <Cluster justify="center" aline="center">
+          Cluster
+        </Cluster>,
       );
       expect(container).toMatchSnapshot();
     });

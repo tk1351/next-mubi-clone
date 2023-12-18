@@ -2,17 +2,25 @@ import { type FC, type PropsWithChildren } from "react";
 import clsx from "clsx";
 import styles from "./Cluster.module.css";
 
-type ClusterPosition = "left" | "right" | "center";
+type ClusterPosition = "flex-start" | "flex-end" | "center";
 
 export type Props = PropsWithChildren<{
-  position?: ClusterPosition;
+  justify?: ClusterPosition;
+  aline?: ClusterPosition;
 }>;
 
-export const Cluster: FC<Props> = ({ children, position }) => {
+export const Cluster: FC<Props> = ({
+  children,
+  justify = "flex-start",
+  aline = "flex-start",
+}) => {
   const clusterClassName = clsx(styles.cluster, {
-    [styles["cluster-left"]]: position === "left",
-    [styles["cluster-right"]]: position === "right",
-    [styles["cluster-center"]]: position === "center",
+    [styles["cluster-justify-start"]]: justify === "flex-start",
+    [styles["cluster-justify-end"]]: justify === "flex-end",
+    [styles["cluster-justify-center"]]: justify === "center",
+    [styles["cluster-aline-start"]]: aline === "flex-start",
+    [styles["cluster-aline-end"]]: aline === "flex-end",
+    [styles["cluster-aline-center"]]: aline === "center",
   });
   return <ul className={clusterClassName}>{children}</ul>;
 };

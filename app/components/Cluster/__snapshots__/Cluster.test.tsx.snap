@@ -1,5 +1,35 @@
 // Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
 
+exports[`Testing Cluster Component > Snapshot > justify, aline が 'flex-end' の場合 1`] = `
+<div>
+  <ul
+    class="_cluster_b5f122 _cluster-justify-end_b5f122 _cluster-aline-end_b5f122"
+  >
+    Cluster
+  </ul>
+</div>
+`;
+
+exports[`Testing Cluster Component > Snapshot > justify, aline が 'flex-start' の場合 1`] = `
+<div>
+  <ul
+    class="_cluster_b5f122 _cluster-justify-start_b5f122 _cluster-aline-start_b5f122"
+  >
+    Cluster
+  </ul>
+</div>
+`;
+
+exports[`Testing Cluster Component > Snapshot > justify, aline が center の場合 1`] = `
+<div>
+  <ul
+    class="_cluster_b5f122 _cluster-justify-center_b5f122 _cluster-aline-center_b5f122"
+  >
+    Cluster
+  </ul>
+</div>
+`;
+
 exports[`Testing Cluster Component > Snapshot > position が center の場合 1`] = `
 <div>
   <ul

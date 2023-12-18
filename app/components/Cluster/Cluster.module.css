@@ -4,17 +4,26 @@
     gap: 1rem;
 }
 
-.cluster-left {
+.cluster-justify-start {
     justify-content: flex-start;
+}
+
+.cluster-aline-start {
     align-items: flex-start;
 }
 
-.cluster-right {
+.cluster-justify-end {
     justify-content: flex-end;
+}
+
+.cluster-aline-end {
     align-items: flex-end;
 }
 
-.cluster-center {
+.cluster-justify-center {
     justify-content: center;
+}
+
+.cluster-aline-center {
     align-items: center;
 }

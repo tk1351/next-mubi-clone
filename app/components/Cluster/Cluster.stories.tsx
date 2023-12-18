@@ -29,7 +29,8 @@ export const FlexEnd: Story = {
         <li>Elit duis cupidatat amet eiusmod ullamco.</li>
       </>
     ),
-    position: "right",
+    justify: "flex-end",
+    aline: "flex-end",
   },
 };
 
@@ -42,6 +43,7 @@ export const Center: Story = {
         <li>Elit duis cupidatat amet eiusmod ullamco.</li>
       </>
     ),
-    position: "center",
+    justify: "center",
+    aline: "center",
   },
 };
