@@ -1,0 +1,31 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing Cluster Component > Snapshot > position が center の場合 1`] = `
+<div>
+  <ul
+    class="_cluster_b5f122 _cluster-center_b5f122"
+  >
+    Cluster
+  </ul>
+</div>
+`;
+
+exports[`Testing Cluster Component > Snapshot > position が left の場合 1`] = `
+<div>
+  <ul
+    class="_cluster_b5f122 _cluster-left_b5f122"
+  >
+    Cluster
+  </ul>
+</div>
+`;
+
+exports[`Testing Cluster Component > Snapshot > position が right の場合 1`] = `
+<div>
+  <ul
+    class="_cluster_b5f122 _cluster-right_b5f122"
+  >
+    Cluster
+  </ul>
+</div>
+`;

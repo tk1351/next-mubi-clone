@@ -1,0 +1,20 @@
+.cluster {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.cluster-left {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.cluster-right {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.cluster-center {
+    justify-content: center;
+    align-items: center;
+}
