@@ -1,0 +1,12 @@
+.box {
+    padding: 10px;
+    border: 0 solid;
+    outline: 0 solid;
+    outline-offset: 0;
+    color: #000;
+    background-color: #fff;
+}
+
+.box * {
+    color: inherit;
+}

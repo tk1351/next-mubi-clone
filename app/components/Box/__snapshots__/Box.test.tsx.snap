@@ -1,0 +1,11 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Testing Box Component > Snapshot 1`] = `
+<div>
+  <div
+    class="_box_61dfa1"
+  >
+    Box
+  </div>
+</div>
+`;
