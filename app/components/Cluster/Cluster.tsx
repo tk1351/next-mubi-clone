@@ -6,21 +6,21 @@ type ClusterPosition = "flex-start" | "flex-end" | "center";
 
 export type Props = PropsWithChildren<{
   justify?: ClusterPosition;
-  aline?: ClusterPosition;
+  align?: ClusterPosition;
 }>;
 
 export const Cluster: FC<Props> = ({
   children,
   justify = "flex-start",
-  aline = "flex-start",
+  align = "flex-start",
 }) => {
   const clusterClassName = clsx(styles.cluster, {
     [styles["cluster-justify-start"]]: justify === "flex-start",
     [styles["cluster-justify-end"]]: justify === "flex-end",
     [styles["cluster-justify-center"]]: justify === "center",
-    [styles["cluster-aline-start"]]: aline === "flex-start",
-    [styles["cluster-aline-end"]]: aline === "flex-end",
-    [styles["cluster-aline-center"]]: aline === "center",
+    [styles["cluster-align-start"]]: align === "flex-start",
+    [styles["cluster-align-end"]]: align === "flex-end",
+    [styles["cluster-align-center"]]: align === "center",
   });
   return <ul className={clusterClassName}>{children}</ul>;
 };

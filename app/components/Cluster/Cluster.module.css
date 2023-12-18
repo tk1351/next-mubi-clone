@@ -8,7 +8,7 @@
     justify-content: flex-start;
 }
 
-.cluster-aline-start {
+.cluster-align-start {
     align-items: flex-start;
 }
 
@@ -16,7 +16,7 @@
     justify-content: flex-end;
 }
 
-.cluster-aline-end {
+.cluster-align-end {
     align-items: flex-end;
 }
 
@@ -24,6 +24,6 @@
     justify-content: center;
 }
 
-.cluster-aline-center {
+.cluster-align-center {
     align-items: center;
 }

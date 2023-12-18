@@ -30,7 +30,7 @@ export const FlexEnd: Story = {
       </>
     ),
     justify: "flex-end",
-    aline: "flex-end",
+    align: "flex-end",
   },
 };
 
@@ -44,6 +44,6 @@ export const Center: Story = {
       </>
     ),
     justify: "center",
-    aline: "center",
+    align: "center",
   },
 };
